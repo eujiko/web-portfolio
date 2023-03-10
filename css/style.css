@@ -1,0 +1,31 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ #navbar {
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   background-color: rgb (255,247,231);
+   z-index: 4;
+   }
+   
+   .dropdown-navcloseNavBtn {
+       position: absolute;
+       top: 20px;
+       right: 16px;
+       background-color:black;
+     }
+     
+     .dropdown-navcontainer {
+       height: 100vh;
+       padding: 0 1rem;
+     }
+   
+     .all-content {
+       background-image: url(bgpic.jpg);
+     }
